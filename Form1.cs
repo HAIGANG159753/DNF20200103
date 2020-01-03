@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Lordeo.Framework;
+using OpenCvSharp;
 
 namespace DNFtest
 {
@@ -35,8 +36,7 @@ namespace DNFtest
             //Console.WriteLine(hWnd);
             if (hWnd.ToString() == "0")
             {
-                MessageBox.Show("未能找到目标窗口");//2020010
-                MessageBox.Show("123");//2020010
+                MessageBox.Show("未能找到目标窗口");
             }
             else
             {
