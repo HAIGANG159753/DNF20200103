@@ -45,7 +45,7 @@ namespace DNFtest
                 //RECT rect = new RECT();
                 //Win32API.GetWindowRect(hWnd, ref rect);
 
-                Bitmap img = publicmethod.GetImg(hWnd);//X,Y为所要获取截图的窗口宽度和高度。
+                Bitmap img = Publicmethod.GetImg(hWnd);//X,Y为所要获取截图的窗口宽度和高度。
 
                 img.Save(savePath);//保存得到的截图。
                 MessageBox.Show("截图成功");
