@@ -35,7 +35,7 @@ namespace DNFtest
             //Console.WriteLine(hWnd);
             if (hWnd.ToString() == "0")
             {
-                MessageBox.Show("未能找到目标窗口");
+                MessageBox.Show("未能找到目标窗口");//20200103
             }
             else
             {
